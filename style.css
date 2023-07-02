@@ -1,0 +1,20 @@
+/* importing Outfit fonts form google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+/* creating variables of fonts and color */
+:root {
+  --outfit: "Outfit", sans-serif;
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Verydark-blue: hsl(217, 54%, 11%);
+  --Verydark-blue: hsl(216, 50%, 16%);
+  --Verydark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* reseting default styling of browser  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--outfit);
+}
